@@ -11,7 +11,7 @@ public class LoginActivity extends ActionBarActivity {
     public final static String URL = "org.swistowski.destinyshelve.URL";
     public final static int LOGIN_REQUEST = 60;
     private static final String PSN_URL = "https://www.bungie.net/en/User/SignIn/Psnid";
-    private static final String XONE_URL = "https://www.bungie.net/en/User/SignIn/Wlid";
+    private static final String XONE_URL = "https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=12&ct=1429373240&rver=6.1.6206.0&wp=LBI&wreply=https://www.bungie.net/en/User/SignIn/Wlid";
     private static final String LOG_TAG = "LoginActivity";
 
     @Override
